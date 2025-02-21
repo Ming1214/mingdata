@@ -1,0 +1,74 @@
+{
+  "NLP_Tasks": [
+    {
+      "Task": "Text Classification",
+      "Description": "将文本数据分类到预定义的类别中。",
+      "Example": "判断下列评论是正面还是负面：‘这家餐厅的食物真是太糟糕了！’"
+    },
+    {
+      "Task": "Named Entity Recognition (NER)",
+      "Description": "识别文本中的具体实体（如人名、地点、组织等）。",
+      "Example": "从文章中识别所有的地名：‘约翰在巴黎会见了玛丽。’"
+    },
+    {
+      "Task": "Sentiment Analysis",
+      "Description": "分析文本表达的情绪倾向（正面、负面或中性）。",
+      "Example": "分析这句话的情感：‘我今天感觉非常开心！’"
+    },
+    {
+      "Task": "Machine Translation",
+      "Description": "将一种语言的文本翻译成另一种语言。",
+      "Example": "将这句中文翻译成英文：‘你今天吃了什么？’"
+    },
+    {
+      "Task": "Automatic Summarization",
+      "Description": "提供一段文本，生成给定文本的简短且含义完整的摘要。",
+      "Example": "对这篇新闻文章进行摘要：‘昨天，市中心发生了一起交通事故，导致交通堵塞数小时……’"
+    },
+    {
+      "Task": "Part-of-Speech Tagging",
+      "Description": "标注文本中每个词的词性（如名词、动词、形容词等）。",
+      "Example": "对这句话进行词性标注：‘他快速地跑过了马路。’"
+    },
+    {
+      "Task": "Dependency Parsing",
+      "Description": "分析文本中词语之间的依存关系。",
+      "Example": "分析这句话的依存句法结构：‘苹果公司发布了新的iPhone。’"
+    },
+    {
+      "Task": "Question Answering",
+      "Description": "根据给定的问题和背景知识，提供答案。",
+      "Example": "回答问题：‘谁是《哈利波特》的作者？’"
+    },
+    {
+      "Task": "Natural Language Inference",
+      "Description": "判断一对句子之间的逻辑关系（蕴含、矛盾或中立）。",
+      "Example": "判断这对句子的关系：‘一个男人在吃饭。一个人在餐厅。’（蕴含、矛盾、中立）"
+    },
+    {
+      "Task": "Coreference Resolution",
+      "Description": "确定文本中提到的各个实体（如代词）指向的具体对象。",
+      "Example": "解析指代关系：‘汤姆买了一辆车。他很喜欢它。’（‘他’指‘汤姆’，‘它’指‘车’）"
+    },
+    {
+      "Task": "Semantic Role Labeling",
+      "Description": "识别句子中各个成分（如动词、名词）的语义角色（如施事者、受事者）。",
+      "Example": "标注这句话的语义角色：‘约翰送给玛丽一本书。’"
+    },
+    {
+      "Task": "Textual Entailment",
+      "Description": "判断一个文本片段（前提）是否逻辑上蕴含另一个文本片段（假设）。",
+      "Example": "判断蕴含关系：‘如果下雨，地面会湿。’前提：‘今天下雨了。’假设：‘地面是湿的。’"
+    },
+    {
+      "Task": "Multi-document Summarization",
+      "Description": "提供多个文档，从中提取信息，生成一个涵盖所有重要信息的摘要。",
+      "Example": "对这些关于气候变化的文章进行摘要:1.中国发表碳中和计划…… 2.美国退出气候协定……"
+    },
+    {
+      "Task": "Information Extraction",
+      "Description": "从非结构化文本中抽取结构化数据，如事件、日期、地点等。",
+      "Example": "从新闻报道中抽取所有提到的事件和相关日期：5月14日，openai 发布会……"
+    }
+  ]
+}
